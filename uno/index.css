@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    display: flex;
+    background-color: #14161a;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 70px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right:10px;
+    margin-right: 60px;
+    justify-content: space-evenly;
+}
+nav a:hover{
+    color: #054281;
+}
