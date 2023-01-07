@@ -44,3 +44,21 @@ nav a:hover{
         text-align: center;
     }
 }
+@media (max-width: 360px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        font-size: xx-small;
+        font-weight: lighter;
+        margin-left: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap:5px;
+        grid-auto-rows: minmax(auto);
+    }
+    nav a{
+        margin: 0 10px 0 0;
+        text-align: center;
+    }
+}
