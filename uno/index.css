@@ -31,3 +31,16 @@ nav a{
 nav a:hover{
     color: #054281;
 }
+@media (max-width: 680px) {
+    header{
+        flex-direction: column;
+    }
+    .logo img{
+        padding: 20px 0 20px 0;
+    }
+    nav{
+        padding: 10px;
+        margin-left: 60px;
+        text-align: center;
+    }
+}
